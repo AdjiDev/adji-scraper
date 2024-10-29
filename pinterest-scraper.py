@@ -41,7 +41,7 @@ class PinterestScraper:
             return {
                 "creator": "maschyodjin",
                 "status": 200,
-                "message": "Success",
+                "query": query,
                 "total_result": len(results),
                 "data": results
             }
@@ -67,7 +67,7 @@ class PinterestScraper:
 
 def test():
     scraper = PinterestScraper()
-    result = scraper.search("sunset")
+    result = scraper.search("loli anime")
     print(json.dumps(result, indent=4))
 
 test()
