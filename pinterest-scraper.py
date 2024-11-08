@@ -1,5 +1,6 @@
 """
-Forbidden to the watermark
+Real Source: https://github.com/AdjiDev/adji-scraper/
+Forbidden to delete the watermark
 telegram: t.me/adjidev
 Github: github.com/adjidev
 """
